@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Exercício de Tabelas</h1>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <th scope="col">grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="4" scope="colgroup">Filmes</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>rafaela Ribeiro</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+                <td>Gladiador</td>
+            </tr>
+
+            <tr>
+                <td>Maria Aparecida</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+                <td>Jhonn Wick</td>
+            </tr>
+
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+                <td>Coringa</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno Henrique</td>
+                <td>Transformers</td>
+                <td>Velozes e Furiosos</td>
+                <td>Creed</td>
+                <td>Mortal Kombat</td>
+            </tr>
+
+            <tr>
+                <td>Daniel San</td>
+                <td>Mortal Kombat</td>
+                <td>Street Fighter</td>
+                <td>Clube da Luta</td>
+                <td>Cão de Briga</td>
+            </tr>
+
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Mr. Robot</td>
+                <td>Intocáveis</td>
+                <td>Gladiador</td>
+                <td>Vingadores</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="5" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

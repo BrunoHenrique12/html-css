@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Medidas absolutas
+
+cm, mm, in, px, pt, pc.
+
+Medidas relativas
+
+em, rem, ex, vw, vh, %
+
+
+*/
+
+body {
+   font-family: 'work-sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font: italic bold 3em 'work-sans', sans-serif;
+}

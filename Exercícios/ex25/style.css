@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #92fafa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#principal {
+    border-radius: 5px;
+    background: #0f8888;
+    height: 75px;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+#tituloprin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px ;
+    color: #92fafa;
+}
+
+h1 {
+    text-align: center;
+    color: #005858;
+}
+
+.basico {
+    margin: 0 10px;
+    color: #083bc7;
+    background-color: rgb(91, 192, 223);
+}
+
+
+.intermediario {
+    margin: 0 10px;
+    color: #083bc7;
+    background-color: rgb(91, 192, 223);
+}
+
+
+.avancado {
+    margin: 0 10px;
+    color: #083bc7;
+    background-color: rgb(91, 192, 223);
+}
+
+
+p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
