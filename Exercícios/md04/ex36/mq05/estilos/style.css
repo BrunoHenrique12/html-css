@@ -48,13 +48,15 @@ menu > ul > li > a {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background-color: #6b6a6a;
+    background-color: #3b3b3b;
     border-top: 2px solid #5c5b5b08;
+    border-radius: 4px;
 }
 
 menu > ul > li > a:hover {
     text-decoration: underline;
     background-color: #b9b7b7;
+    transition: ease .4s;
 }
 
 main {
